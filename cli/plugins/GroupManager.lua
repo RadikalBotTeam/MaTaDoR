@@ -3153,7 +3153,7 @@ elseif tonumber(check_time) > 86400 then
 end
 if not lang then
 local settings = data[tostring(target)]["settings"] 
- text ="*gяσυρ ѕєттιηgѕ MataDoRboT :*\n*_______________*\n`🔐 GroUo Lock List :`\n●*》ℓσ¢к ̶є∂ιтє :* "..settings.lock_edit.."\n○*》ℓσ¢к ̶ℓιηк :* "..settings.lock_link.."\n●*》ℓσ¢к ̶υѕєяηαмє :* "..settings.lock_username.."\n○*》ℓσ¢к ̶нαѕнтαgѕ :* "..settings.lock_hashtags.."\n●*》ℓσ¢к ємσנι :* "..settings.emoji.."\n○*》ℓσ¢к  ̶נσιη ̶ :* "..settings.lock_join.."\n●*》ℓσ¢к тαв¢нι :* "..settings.lock_tabchi.."\n○*》ℓσ¢к ѕραм :* "..settings.lock_spam.."\n●*》ℓσ¢к ƒℓσσ∂ :* "..settings.flood.."\n○*》ℓσ¢к ̶ƒσѕн :* "..settings.fosh.."\n●*》ℓσ¢к ̶мєηтιση :* "..settings.lock_mention.."\n○*》ℓσ¢к ωєвραgє :* "..settings.lock_webpage.."\n●*》ℓσ¢к ̶α∂ѕ  :* "..settings.ads.."\n○*》ℓσ¢к єηgℓιѕн :* "..settings.english.."\n●*》ℓσ¢к αяαвι¢ :* "..settings.lock_arabic.."\n○*》ℓσ¢к мαяк∂σωη :* "..settings.lock_markdown.."\n●*》ℓσ¢к ̶ριη мєѕѕαgє:* "..settings.lock_pin.."\n○*》ℓσ¢к ̶νιєωѕ мєѕѕαgє :* "..settings.views.."\n*_______________*\n`🔇 GroUp MuTe List :`\n●*》мυтє тιмєαℓℓ :* "..mute_all1.."\n○*》мυтє ̶gιƒ :* "..settings.mute_gif.."\n●*》мυтє ̶тєχт:* "..settings.mute_text.."\n○*》мυтє  ιηℓιηє:* "..settings.mute_inline.."\n●*》мυтє gαмє :* "..settings.mute_game.."\n○*》мυтє ̶ρнσтσ:* "..settings.mute_photo.."\n●*》мυтє νι∂єσ:* "..settings.mute_video.."\n○*》мυтє αυ∂ισ :* "..settings.mute_audio.."\n●*》мυтє νσι¢є :* "..settings.mute_voice.."\n○*》мυтє  ̶ѕтι¢кєя:* "..settings.mute_sticker.."\n●*》мυтє ¢σηтα¢т :* "..settings.mute_contact.."\n○*》мυтє ̶ƒσяωαя∂ :* "..settings.mute_forward.."\n●*》мυтє  ̶ℓσ¢αтιση:* "..settings.mute_location.."\n○*》мυтє ∂σ¢υмєηт:* "..settings.mute_document.."\n●*》мυтє тgѕєяνι¢є :* "..settings.mute_tgservice.."\n○*》мυтє ̶кєувσαя∂ :* "..settings.mute_keyboard.."\n*_______________*\n`💠 OThEr SettinGs :`\n●*》gяσυρ ωєℓ¢σмє :* "..settings.welcome.."\n○*》вσтѕ ρяσтє¢тιση :* "..settings.lock_bots.."\n●*》ƒℓσρ∂ ѕєηѕιтινιту:* `"..NUM_MSG_MAX.."`\n○*》ƒℓσσ∂ ¢є¢к тιмє:* `"..TIME_CHECK.."`\n●*》¢нαяα¢тєя ѕєηѕιтινιту :* `"..SETCHAR.."`\n○*》вσтѕ ¢σммαη∂ѕ:* "..cmdsss.."\n●*》єχριяє ∂αтє :* `"..expire_date.."`\n*_______________*\n`🌐 InfoRmaTion :`\n⚜*》gяσυρ ηαмє :* "..msg.to.title.."\n⚜*》gяσυρ ι∂ :* `"..msg.to.id.."`\n⚜*》уσυя ηαмє :* "..(check_markdown(msg.from.first_name) or 'No ɳαɱҽ').."\n⚜*》уσυя ι∂ :* `"..msg.from.id.."`\n⚜*》υѕєяηαмє :* @"..check_markdown(msg.from.username or "MahDiRoO").."\n*_______________*\n*📋 ƇнαηηєƖ :* @MaTaDoRTeaM\n*💻 ρσωєяɗ Ɓу :* @MahDiRoO\n*🔠 Ɠяσυρ Lαηgυαgє :* `Eɠ`"
+ text ="*gяσυρ ѕєттιηgѕ RadikalBot :*\n*_______________*\n`🔐 GroUo Lock List :`\n●*》ℓσ¢к ̶є∂ιтє :* "..settings.lock_edit.."\n○*》ℓσ¢к ̶ℓιηк :* "..settings.lock_link.."\n●*》ℓσ¢к ̶υѕєяηαмє :* "..settings.lock_username.."\n○*》ℓσ¢к ̶нαѕнтαgѕ :* "..settings.lock_hashtags.."\n●*》ℓσ¢к ємσנι :* "..settings.emoji.."\n○*》ℓσ¢к  ̶נσιη ̶ :* "..settings.lock_join.."\n●*》ℓσ¢к тαв¢нι :* "..settings.lock_tabchi.."\n○*》ℓσ¢к ѕραм :* "..settings.lock_spam.."\n●*》ℓσ¢к ƒℓσσ∂ :* "..settings.flood.."\n○*》ℓσ¢к ̶ƒσѕн :* "..settings.fosh.."\n●*》ℓσ¢к ̶мєηтιση :* "..settings.lock_mention.."\n○*》ℓσ¢к ωєвραgє :* "..settings.lock_webpage.."\n●*》ℓσ¢к ̶α∂ѕ  :* "..settings.ads.."\n○*》ℓσ¢к єηgℓιѕн :* "..settings.english.."\n●*》ℓσ¢к αяαвι¢ :* "..settings.lock_arabic.."\n○*》ℓσ¢к мαяк∂σωη :* "..settings.lock_markdown.."\n●*》ℓσ¢к ̶ριη мєѕѕαgє:* "..settings.lock_pin.."\n○*》ℓσ¢к ̶νιєωѕ мєѕѕαgє :* "..settings.views.."\n*_______________*\n`🔇 GroUp MuTe List :`\n●*》мυтє тιмєαℓℓ :* "..mute_all1.."\n○*》мυтє ̶gιƒ :* "..settings.mute_gif.."\n●*》мυтє ̶тєχт:* "..settings.mute_text.."\n○*》мυтє  ιηℓιηє:* "..settings.mute_inline.."\n●*》мυтє gαмє :* "..settings.mute_game.."\n○*》мυтє ̶ρнσтσ:* "..settings.mute_photo.."\n●*》мυтє νι∂єσ:* "..settings.mute_video.."\n○*》мυтє αυ∂ισ :* "..settings.mute_audio.."\n●*》мυтє νσι¢є :* "..settings.mute_voice.."\n○*》мυтє  ̶ѕтι¢кєя:* "..settings.mute_sticker.."\n●*》мυтє ¢σηтα¢т :* "..settings.mute_contact.."\n○*》мυтє ̶ƒσяωαя∂ :* "..settings.mute_forward.."\n●*》мυтє  ̶ℓσ¢αтιση:* "..settings.mute_location.."\n○*》мυтє ∂σ¢υмєηт:* "..settings.mute_document.."\n●*》мυтє тgѕєяνι¢є :* "..settings.mute_tgservice.."\n○*》мυтє ̶кєувσαя∂ :* "..settings.mute_keyboard.."\n*_______________*\n`💠 OThEr SettinGs :`\n●*》gяσυρ ωєℓ¢σмє :* "..settings.welcome.."\n○*》вσтѕ ρяσтє¢тιση :* "..settings.lock_bots.."\n●*》ƒℓσρ∂ ѕєηѕιтινιту:* `"..NUM_MSG_MAX.."`\n○*》ƒℓσσ∂ ¢є¢к тιмє:* `"..TIME_CHECK.."`\n●*》¢нαяα¢тєя ѕєηѕιтινιту :* `"..SETCHAR.."`\n○*》вσтѕ ¢σммαη∂ѕ:* "..cmdsss.."\n●*》єχριяє ∂αтє :* `"..expire_date.."`\n*_______________*\n`🌐 InfoRmaTion :`\n⚜*》gяσυρ ηαмє :* "..msg.to.title.."\n⚜*》gяσυρ ι∂ :* `"..msg.to.id.."`\n⚜*》уσυя ηαмє :* "..(check_markdown(msg.from.first_name) or 'No ɳαɱҽ').."\n⚜*》уσυя ι∂ :* `"..msg.from.id.."`\n⚜*》υѕєяηαмє :* @"..check_markdown(msg.from.username or "MahDiRoO").."\n*_______________*\n*📋 ƇнαηηєƖ :* @MaTaDoRTeaM\n*💻 ρσωєяɗ Ɓу :* @MahDiRoO\n*🔠 Ɠяσυρ Lαηgυαgє :* `Eɠ`"
 else
 local exp = redis:get("charged:"..msg.chat_id_)
     local day = 86400
@@ -3165,7 +3165,7 @@ local exp = redis:get("charged:"..msg.chat_id_)
        expirefa = " *"..d.."* _روز_"
    end
 local settings = data[tostring(target)]["settings"] 
- text ="*gяσυρ ѕєттιηgѕ MataDoRboT :*\n*_______________*\n`🔐 لیـــست قفلــی گروه :`\n●*》قفـل ویرایش :* "..settings.lock_edit.."\n○*》قفـل لینڪ :* "..settings.lock_link.."\n●*》قفـل یوزرنیم :* "..settings.lock_username.."\n○*》 قفـل هشتگ :* "..settings.lock_hashtags.."\n●*》قفـل شڪلڪ :* "..settings.emoji.."\n○*》قفـل ورود :* "..settings.lock_join.."\n●*》قفـل تبچی :* "..settings.lock_tabchi.."\n○*》قفـل اسپم :* "..settings.lock_spam.."\n●*》قفـل فلود :* "..settings.flood.."\n○*》قفـل فحش :* "..settings.fosh.."\n●*》قفـل فراخوانی  :* "..settings.lock_mention.."\n○*》قفـل وب :* "..settings.lock_webpage.."\n●*》قفـل تبلیغات  :* "..settings.ads.."\n○*》قفـل انگلیسی :* "..settings.english.."\n●*》قفـل عربی :* "..settings.lock_arabic.."\n○*》قفـل فونت :* "..settings.lock_markdown.."\n●*》فـل سنجاق :* "..settings.lock_pin.."\n○*》قفـل بنر :* "..settings.views.."\n*_______________*\n`🔇 لیـــست ّبیصــدا گروه :`\n●*》بیصدا زمان دار :* "..mute_all2.."\n○*》بیصدا گیف :* "..settings.mute_gif.."\n●*》بیصدا متن :* "..settings.mute_text.."\n○*》بیصدا اینلاین :* "..settings.mute_inline.."\n●*》بیصدا بازی:* "..settings.mute_game.."\n○*》بیصدا عکس :* "..settings.mute_photo.."\n●*》بیصدا فیلم :* "..settings.mute_video.."\n○*》بیصدا اهنگ :* "..settings.mute_audio.."\n●*》بیصدا ویس:* "..settings.mute_voice.."\n○*》بیصدا استیکر :* "..settings.mute_sticker.."\n●*》بیصدا ارسال مخاطب :* "..settings.mute_contact.."\n○*》بیصدا نقل و قول :* "..settings.mute_forward.."\n●*》بیصدا مکان :* "..settings.mute_location.."\n○*》بیصدا فایل :* "..settings.mute_document.."\n●*》بیصدا ورود و خروج :* "..settings.mute_tgservice.."\n○*》بیصدا کیبورد :* "..settings.mute_keyboard.."\n*_______________*\n`💠 لیســـت تنظیمات دیگر :`\n●*》وضعیت ولکام :* "..settings.welcome.."\n○*》محافظت گروه در برابر ربات :* "..settings.lock_bots.."\n●*》حداکثر پیام مکرر:* `"..NUM_MSG_MAX.."`\n○*》زمان برسی پیام مکرر:* `"..TIME_CHECK.."`\n●*》حداکثر کارکتر مجاز :* `"..SETCHAR.."`\n○*》دستورات ربات :* "..cmdsss.."\n●*》تـاریخ انقضـا :* `"..expire_date.."`\n*_______________*\n`🌐 اطلـاعاتــ :`\n⚜*》نـام گـروه :* "..msg.to.title.."\n⚜*》ایـدی گـروه :* `"..msg.to.id.."`\n⚜*》نـام شمـا :* "..(check_markdown(msg.from.first_name) or 'No ɳαɱҽ').."\n⚜*》ایـدی شمـا :* `"..msg.from.id.."`\n⚜*》شنـاسه شمـا :* @"..(check_markdown(msg.from.username or 'No υʂҽɾɳαɱҽ')).."\n*_______________*\n*کــانال :* @MaTaDoRTeaM\n*برنامه نویــس :* @MahDiRoO\n*زبان گــروه :* `فارسی`"
+ text ="*gяσυρ ѕєттιηgѕ RadikalBot :*\n*_______________*\n`🔐 لیـــست قفلــی گروه :`\n●*》قفـل ویرایش :* "..settings.lock_edit.."\n○*》قفـل لینڪ :* "..settings.lock_link.."\n●*》قفـل یوزرنیم :* "..settings.lock_username.."\n○*》 قفـل هشتگ :* "..settings.lock_hashtags.."\n●*》قفـل شڪلڪ :* "..settings.emoji.."\n○*》قفـل ورود :* "..settings.lock_join.."\n●*》قفـل تبچی :* "..settings.lock_tabchi.."\n○*》قفـل اسپم :* "..settings.lock_spam.."\n●*》قفـل فلود :* "..settings.flood.."\n○*》قفـل فحش :* "..settings.fosh.."\n●*》قفـل فراخوانی  :* "..settings.lock_mention.."\n○*》قفـل وب :* "..settings.lock_webpage.."\n●*》قفـل تبلیغات  :* "..settings.ads.."\n○*》قفـل انگلیسی :* "..settings.english.."\n●*》قفـل عربی :* "..settings.lock_arabic.."\n○*》قفـل فونت :* "..settings.lock_markdown.."\n●*》فـل سنجاق :* "..settings.lock_pin.."\n○*》قفـل بنر :* "..settings.views.."\n*_______________*\n`🔇 لیـــست ّبیصــدا گروه :`\n●*》بیصدا زمان دار :* "..mute_all2.."\n○*》بیصدا گیف :* "..settings.mute_gif.."\n●*》بیصدا متن :* "..settings.mute_text.."\n○*》بیصدا اینلاین :* "..settings.mute_inline.."\n●*》بیصدا بازی:* "..settings.mute_game.."\n○*》بیصدا عکس :* "..settings.mute_photo.."\n●*》بیصدا فیلم :* "..settings.mute_video.."\n○*》بیصدا اهنگ :* "..settings.mute_audio.."\n●*》بیصدا ویس:* "..settings.mute_voice.."\n○*》بیصدا استیکر :* "..settings.mute_sticker.."\n●*》بیصدا ارسال مخاطب :* "..settings.mute_contact.."\n○*》بیصدا نقل و قول :* "..settings.mute_forward.."\n●*》بیصدا مکان :* "..settings.mute_location.."\n○*》بیصدا فایل :* "..settings.mute_document.."\n●*》بیصدا ورود و خروج :* "..settings.mute_tgservice.."\n○*》بیصدا کیبورد :* "..settings.mute_keyboard.."\n*_______________*\n`💠 لیســـت تنظیمات دیگر :`\n●*》وضعیت ولکام :* "..settings.welcome.."\n○*》محافظت گروه در برابر ربات :* "..settings.lock_bots.."\n●*》حداکثر پیام مکرر:* `"..NUM_MSG_MAX.."`\n○*》زمان برسی پیام مکرر:* `"..TIME_CHECK.."`\n●*》حداکثر کارکتر مجاز :* `"..SETCHAR.."`\n○*》دستورات ربات :* "..cmdsss.."\n●*》تـاریخ انقضـا :* `"..expire_date.."`\n*_______________*\n`🌐 اطلـاعاتــ :`\n⚜*》نـام گـروه :* "..msg.to.title.."\n⚜*》ایـدی گـروه :* `"..msg.to.id.."`\n⚜*》نـام شمـا :* "..(check_markdown(msg.from.first_name) or 'No ɳαɱҽ').."\n⚜*》ایـدی شمـا :* `"..msg.from.id.."`\n⚜*》شنـاسه شمـا :* @"..(check_markdown(msg.from.username or 'No υʂҽɾɳαɱҽ')).."\n*_______________*\n*کــانال :* @MaTaDoRTeaM\n*برنامه نویــس :* @MahDiRoO\n*زبان گــروه :* `فارسی`"
 end
 if not lang then
 text = string.gsub(text, "yes", "`🔐`")
@@ -3858,9 +3858,9 @@ if matches[1] == 'linkpv' and is_mod(msg) or matches[1] == 'Linkpv' and is_mod(m
   if matches[1] == "rules" or matches[1] == "قوانین" or matches[1] == "Rules" then
  if not data[tostring(chat)]['rules'] then
    if not lang then
-     rules = "@MaTaDoRTeaM"
+     rules = "@RadikalBotTM"
     elseif lang then
-       rules = "@MaTaDoRTeaM"
+       rules = "@RadikalBotTM"
  end
         else
      rules = "*Group Rules :*\n"..data[tostring(chat)]['rules']
@@ -4177,7 +4177,7 @@ tdcli.getInlineQueryResults(helper_id, msg.to.id, 0, 0, msg.to.id, 0, inline_que
 end
 if matches[1] == "help" and is_mod(msg) or matches[1] == "Help" and is_mod(msg) or matches[1] == "راهنما" and is_mod(msg) then
 if not lang then
-text = [[🔖*нєℓρ MαƬαƊσR Ɓσт*
+text = [[🔖*нєℓρ яα∂ιкαℓвσт*
 ⚡️*тo ѕee тнe coммαɴdѕ oғ yoυr deѕιred ιтeм ѕυвмιт*
 🌐 _ҽɳɠʅιʂԋ cσɱɱαɳԃʂ :_
 👆 `To Get Help Sudo`
@@ -4202,11 +4202,11 @@ text = [[🔖*нєℓρ MαƬαƊσR Ɓσт*
 _To Change The LanGuage_ 
 *Setlang* `[en , fa]`
 ➖➖➖
-👤 *ρσωєяɗ Ɓу :* @MahDiRoO
-🗣 *ƇнαηηєƖ :* @MaTaDoRTeaM
+👤 *ρσωєяɗ Ɓу :* @ariasudo
+🗣 *ƇнαηηєƖ :* @RadikalBotTM
 ]]
 elseif lang then
-text = [[🔖*нєℓρ MαƬαƊσR Ɓσт*
+text = [[🔖*нєℓρ яα∂ιкαℓвσт*
 ⚡️*برای دیدن دستورات مورد نظر خود ، مورد دلخواه را ارسال کنید*
 💠_دستورات فارسی :_
 🎗*👉  راهنمای سودو۰*
@@ -4231,8 +4231,8 @@ text = [[🔖*нєℓρ MαƬαƊσR Ɓσт*
 _برای تغییر زبان_
  *تنظیم زبان* `[فارسی , انگلسیی]`
 ➖➖➖
-👤 *ρσωєяɗ Ɓу :* @MahDiRoO
-🗣 *ƇнαηηєƖ :* @MaTaDoRTeaM
+👤 *ρσωєяɗ Ɓу :* @ariasudo
+🗣 *ƇнαηηєƖ :* @RadikalBotTM
 ]]
 end
 return text
@@ -4240,7 +4240,7 @@ end
 
 if matches[1] == "sudohelp" and is_mod(msg) or  matches[1] == "Sudohelp" and is_mod(msg) or  matches[1] == "راهنمای سودو" and is_mod(msg) then
 text = [[
-🔖*нєℓρ MαƬαƊσR Ɓσт*
+🔖*нєℓρ яα∂ιкαℓвσт*
 ⚡️*тo ѕee тнe coммαɴdѕ oғ yoυr deѕιred ιтeм ѕυвмιт*
 🌐 _ҽɳɠʅιʂԋ cσɱɱαɳԃʂ :_
 *Visudo* `[username|id|reply]`
@@ -4315,8 +4315,8 @@ text = [[
 _To Change The LanGuage_ 
 *Setlang* `[en , fa]`
 ➖➖➖
-👤 *ρσωєяɗ Ɓу :* @MahDiRoO
-🗣 *ƇнαηηєƖ :* @MaTaDoRTeaM
+👤 *ρσωєяɗ Ɓу :* @ariasudo
+🗣 *ƇнαηηєƖ :* @RadikalBotTM
 ]]
 return text
 end
@@ -4334,8 +4334,8 @@ text = [[
  *⌨️ LanGuage BoT EngliSh !*
 _To Change The LanGuage_ `[Setlang]` `[en , fa]`
 ➖➖➖
-👤 *ρσωєяɗ Ɓу :* @MahDiRoO
-🗣 *ƇнαηηєƖ :* @MaTaDoRTeaM
+👤 *ρσωєяɗ Ɓу :* @ariasudo
+🗣 *ƇнαηηєƖ :* @RadikalBotTM
  ]]
 elseif lang then
 text = [[
@@ -4348,8 +4348,8 @@ text = [[
 *⌨️ زبان ربات فارسی !*
 _برای تغییر زبان_ `[تنظیم زبان]` `[فارسی , انگلسیی]`
 ➖➖➖
-👤 *ρσωєяɗ Ɓу :* @MahDiRoO
-🗣 *ƇнαηηєƖ :* @MaTaDoRTeaM
+👤 *ρσωєяɗ Ɓу :* @ariasudo
+🗣 *ƇнαηηєƖ :* @RadikalBotTM
 ]]
 end
 return text
@@ -4367,8 +4367,8 @@ text = [[
  *⌨️ LanGuage BoT EngliSh !*
 _To Change The LanGuage_ `[Setlang]` `[en , fa]`
 ➖➖➖
-👤 *ρσωєяɗ Ɓу :* @MahDiRoO
-🗣 *ƇнαηηєƖ :* @MaTaDoRTeaM
+👤 *ρσωєяɗ Ɓу :* @ariasudo
+🗣 *ƇнαηηєƖ :* @RadikalBotTM
 ]]
 elseif lang then
 text = [[
@@ -4380,8 +4380,8 @@ text = [[
 *⌨️ زبان ربات فارسی !*
 _برای تغییر زبان_ `[تنظیم زبان]` `[فارسی , انگلسیی]`
 ➖➖➖
-👤 *ρσωєяɗ Ɓу :* @MahDiRoO
-🗣 *ƇнαηηєƖ :* @MaTaDoRTeaM
+👤 *ρσωєяɗ Ɓу :* @ariasudo
+🗣 *ƇнαηηєƖ :* @RadikalBotTM
 ]]
 end
 return text
@@ -4451,8 +4451,8 @@ text = [[
  *⌨️ LanGuage BoT EngliSh !*
 _To Change The LanGuage_ `[Setlang]` `[en , fa]`
 ➖➖➖
-👤 *ρσωєяɗ Ɓу :* @MahDiRoO
-🗣 *ƇнαηηєƖ :* @MaTaDoRTeaM
+👤 *ρσωєяɗ Ɓу :* @ariasudo
+🗣 *ƇнαηηєƖ :* @RadikalBotTM
 ]]
 elseif lang then
 text = [[
@@ -4515,8 +4515,8 @@ text = [[
 *⌨️ زبان ربات فارسی !*
 _برای تغییر زبان_ `[تنظیم زبان]` `[فارسی , انگلسیی]`
 ➖➖➖
-👤 *ρσωєяɗ Ɓу :* @MahDiRoO
-🗣 *ƇнαηηєƖ :* @MaTaDoRTeaM
+👤 *ρσωєяɗ Ɓу :* @ariasudo
+🗣 *ƇнαηηєƖ :* @RadikalBotTM
 ]]
 end
 return text
@@ -4563,8 +4563,8 @@ _Tr en سلام_
  *⌨️ LanGuage BoT EngliSh !*
 _To Change The LanGuage_ `[Setlang]` `[en , fa]`
 ➖➖➖
-👤 *ρσωєяɗ Ɓу :* @MahDiRoO
-🗣 *ƇнαηηєƖ :* @MaTaDoRTeaM
+👤 *ρσωєяɗ Ɓу :* @ariasudo
+🗣 *ƇнαηηєƖ :* @RadikalBotTM
 ]]
 elseif lang then
 text = [[
@@ -4606,8 +4606,8 @@ _ترجمه en سلام_
 *⌨️ زبان ربات فارسی !*
 _برای تغییر زبان_ `[تنظیم زبان]` `[فارسی , انگلسیی]`
 ➖➖➖
-👤 *ρσωєяɗ Ɓу :* @MahDiRoO
-🗣 *ƇнαηηєƖ :* @MaTaDoRTeaM
+👤 *ρσωєяɗ Ɓу :* @ariasudo
+🗣 *ƇнαηηєƖ :* @RadikalBotTM
 ]]
 end
 return text
@@ -4639,9 +4639,9 @@ text = [[
 3⃣._ربات داعمی نداریم به علت کیفیت و کارای بالای ربات._
 *________________*
 *برای خرید به ایدی زیر مراجعه کنید :*
-🆔: @MahDiRoO
+🆔: @ariasudo
 *و اگر ریپورت هستید به :*
-🆔: @MahDiRoOBoT
+🆔: @ariasudoBoT
 ]]
 return text
 end
@@ -4656,7 +4656,7 @@ end
 if matches[1] == "mutetimehelp" or matches[1] == "Mutetimehelp" or matches[1] == "راهنمای بیصدازمانی" then
 if not lang then
 text = [[
-̶M̶α̶Ƭ̶α̶Ɗ̶σ̶R̶ ̶M̶υ̶т̶є̶т̶ι̶м̶є̶ ̶Ƈ̶σ̶м̶м̶α̶η̶ɗ̶ѕ:
+ яα∂ιкαℓвσт ̶M̶υ̶т̶є̶т̶ι̶м̶є̶ ̶Ƈ̶σ̶м̶м̶α̶η̶ɗ̶ѕ:
 *⚡️тo ѕee тнe coммαɴdѕ oғ yoυr deѕιred ιтeм ѕυвмιт*
 🌐 ҽɳɠʅιʂԋ cσɱɱαɳԃʂ :
 *👉 Mute all*
@@ -4681,8 +4681,8 @@ text = [[
 _To Change The LanGuage_
 *👉 Setlang* [en , fa]
 ➖➖➖
-👤 ρσωєяɗ Ɓу : @MahDiRoO
-🗣 ƇнαηηєƖ : @MaTaDoRTeaM
+👤 ρσωєяɗ Ɓу : @ariasudo
+🗣 ƇнαηηєƖ : @RadikalBotTM
 ]]
 elseif lang then
 text = [[
@@ -4701,8 +4701,8 @@ Unmute group at this time
 *⌨️ زبان ربات فارسی !*
 _برای تغییر زبان_ `[تنظیم زبان]` `[فارسی , انگلسیی]`
 ➖➖➖
-👤 *ρσωєяɗ Ɓу :* @MahDiRoO
-🗣 *ƇнαηηєƖ :* @MaTaDoRTeaM
+👤 *ρσωєяɗ Ɓу :* @ariasudo
+🗣 *ƇнαηηєƖ :* @RadikalBotTM
 ]]
 end
 return text
@@ -4740,9 +4740,9 @@ text = [[
 3⃣._ربات داعمی نداریم به علت کیفیت و کارای بالای ربات._
 *________________*
 *برای خرید به ایدی زیر مراجعه کنید :*
-🆔: @MahDiRoO
+🆔: @ariasudo
 *و اگر ریپورت هستید به :*
-🆔: @MahDiRoO\_BoT
+🆔: @ariasudo\_BoT
 ]]
 return text
 end

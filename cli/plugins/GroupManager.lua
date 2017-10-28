@@ -670,7 +670,7 @@ end
    if cmd == "demote" then
 if not administration[tostring(arg.chat_id)]['mods'][tostring(data.id_)] then
     if not lang then
-    return tdcli.sendMessage(arg.chat_id, "", 0, "》👤_υšeя_ "..user_name.." *"..data.id_.."* _łи иøт α_ *мøđeяαтøя*❗️", 0, "md")
+    return tdcli.sendMessage(arg.chat_id, "", 0, "》👤_υšeя_ "..user_name.." *"..data.id_.."* _łи иøт α_ *яα∂ιкαℓвσт*❗️", 0, "md")
     else
     return tdcli.sendMessage(arg.chat_id, "", 0, "》👤کاربر "..user_name.." *"..data.id_.."* *از قبل معاون نبود*❗️", 0, "md")
    end
@@ -802,7 +802,7 @@ end
   if cmd == "promote" then
 if administration[tostring(arg.chat_id)]['mods'][tostring(data.id_)] then
    if not lang then
-    return tdcli.sendMessage(arg.chat_id, "", 0, "》👤_υšeя_ "..user_name.." *"..data.id_.."* _łš αlяeαđч_ *мøđeяαтøя*⚠️", 0, "md")
+    return tdcli.sendMessage(arg.chat_id, "", 0, "》👤_υšeя_ "..user_name.." *"..data.id_.."* _łš αlяeαđч_ *яα∂ιкαℓвσт*⚠️", 0, "md")
 else
     return tdcli.sendMessage(arg.chat_id, "", 0, "》👤کاربر "..user_name.." *"..data.id_.."* *از قبل معاون گروه بود*⚠️", 0, "md")
       end
@@ -834,7 +834,7 @@ end
    if cmd == "demote" then
 if not administration[tostring(arg.chat_id)]['mods'][tostring(data.id_)] then
     if not lang then
-    return tdcli.sendMessage(arg.chat_id, "", 0, "》👤_υšeя_ "..user_name.." *"..data.id_.."* _łи иøт α_ *мøđeяαтøя*❗️", 0, "md")
+    return tdcli.sendMessage(arg.chat_id, "", 0, "》👤_υšeя_ "..user_name.." *"..data.id_.."* _łи иøт α_ *яα∂ιкαℓвσт*❗️", 0, "md")
     else
     return tdcli.sendMessage(arg.chat_id, "", 0, "》👤کاربر "..user_name.." *"..data.id_.."* *از قبل معاون نبود*❗️", 0, "md")
    end

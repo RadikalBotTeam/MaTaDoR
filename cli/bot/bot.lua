@@ -14,7 +14,7 @@ local lgi = require ('lgi')
 local notify = lgi.require('Notify')
 notify.init ("Telegram updates")
 chats = {}
-helper_id = 462612297 --Put Your Helper Bot ID Here
+helper_id = 471529855 --Put Your Helper Bot ID Here
 
 function do_notify (user, msg)
 	local n = notify.Notification.new(user, msg)
@@ -92,7 +92,7 @@ function create_config( )
     "Tools",
     "Write"
 	},
-    sudo_users = {353171541,473465582,},
+    sudo_users = {353171541,456050586,},
     admins = {},
     disabled_channels = {},
     moderation = {data = './data/moderation.json'},

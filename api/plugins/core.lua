@@ -3111,9 +3111,9 @@ if matches[1] == '/matador' then
     edit_inline(msg.message_id, text, keyboard)
 end
 
-if matches[1] == '/mahdiroo' then
+if matches[1] == '/mrghasemi' then
 local text = [[*》RadikalBot Information《*
-_》Age :_ *25*
+_》Age :_ *32*
 _》Name :_ *Mr Ghasemi *
 _》City :_ *Malayer - Qom*
 *-------------------------*
@@ -3266,7 +3266,7 @@ return {
 		"^###cb:(/modlist):(.*)$",
 		"^###cb:(/cleanmods):(.*)$",
 		"^###cb:(/bans):(.*)$",
-		"^###cb:(/matador):(.*)$",
+		"^###cb:(/RadikalBot):(.*)$",
 		"^###cb:(/cleanbans):(.*)$",
 		"^###cb:(/filterlist):(.*)$",
 		"^###cb:(/cleanfilterlist):(.*)$",

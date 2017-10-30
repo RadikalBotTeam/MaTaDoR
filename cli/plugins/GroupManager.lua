@@ -4083,10 +4083,10 @@ if matches[1] == "setlang" and is_owner(msg) or matches[1] == "تنظیم زبا
 local hash = "gp_lang:"..msg.to.id
 local lang = redis:get(hash)
  redis:del(hash)
-return "_gяøυρ lαиgυαge šeт тø:_ EN✅\n*øяđeявч*: [@"..check_markdown(msg.from.username or "MahDiRoO").."]\n @MaTaDoRTeaM"
+return "_gяøυρ lαиgυαge šeт тø:_ EN✅\n*øяđeявч*: [@"..check_markdown(msg.from.username or "MahDiRoO").."]\n @RadikalBotTM"
   elseif matches[2] == "fa" or matches[2] == "فارسی" then
 redis:set(hash, true)
-return "*زبان گروه تنظیم شد به : فارسی*\nسفارش توسط : [@"..check_markdown(msg.from.username or "MahDiRoO").."]\n‌ @MaTaDoRTeaM"
+return "*زبان گروه تنظیم شد به : فارسی*\nسفارش توسط : [@"..check_markdown(msg.from.username or "MahDiRoO").."]\n‌ @RadikalBotTM"
 end
 end
 

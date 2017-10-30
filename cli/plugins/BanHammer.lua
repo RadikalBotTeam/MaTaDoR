@@ -730,7 +730,7 @@ data[tostring(chat)]['is_silent_users'][tostring(matches[2])] = ""
     }, action_by_username, {chat_id=msg.to.id,username=matches[2],cmd="silent"})
       end
    end
- if matches[1] == "unsilent" and is_mod(msg) or  matches[1] == "Unsilent" and is_mod(msg) or  matches[1] == "لغو سکوت " and is_mod(msg) then
+ if matches[1] == "unsilent" and is_mod(msg) or  matches[1] == "Unsilent" and is_mod(msg) or  matches[1] == "لغو سکوت" and is_mod(msg) then
 if not matches[2] and msg.reply_id then
     tdcli_function ({
       ID = "GetMessage",
@@ -872,7 +872,7 @@ return {
 		"^(سکوت) (.*)$",
 		"^[!/#]([Uu]nsilent)$",
 		"^([Uu]nsilent)$",
-		"^(لغو سکوت )$",
+		"^(لغو سکوت)$",
 		"^[!/#]([Uu]nsilent) (.*)$",
 		"^([Uu]nsilent) (.*)$",
 		"^(لغو سکوت ) (.*)$",

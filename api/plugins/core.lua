@@ -3266,7 +3266,7 @@ return {
 		"^###cb:(/modlist):(.*)$",
 		"^###cb:(/cleanmods):(.*)$",
 		"^###cb:(/bans):(.*)$",
-		"^###cb:(/RadikalBot):(.*)$",
+		"^###cb:(/matador):(.*)$",
 		"^###cb:(/cleanbans):(.*)$",
 		"^###cb:(/filterlist):(.*)$",
 		"^###cb:(/cleanfilterlist):(.*)$",

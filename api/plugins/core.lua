@@ -3079,13 +3079,13 @@ if matches[1] == '/matador' then
 	keyboard = {} 
 	keyboard.inline_keyboard = {
 		{
-			{text = "> MahDiRoO", callback_data="/mahdiroo:"..matches[2]}
+			{text = "> Mr Ghasemi", callback_data="/mrghasemi:"..matches[2]}
 		},
 		{
-			{text = "> Xamarin Developer", callback_data="/xamarindev:"..matches[2]}
+			{text = "> Clip_Voice", callback_data="/clip_voice:"..matches[2]}
 		},
 		{
-			{text = '> Our GitHub ', url = 'https://www.github.com/MaTaDoRTeam'}
+			{text = '> Our GitHub ', url = 'https://www.github.com/RadikalBotTeam'}
 		},
 		{
 			{text= '> Back 🔙' ,callback_data = '/option:'..matches[2]}
@@ -3095,13 +3095,13 @@ if matches[1] == '/matador' then
 	keyboard = {} 
 	keyboard.inline_keyboard = {
 		{
-			{text = "> مهدی", callback_data="/mahdiroo:"..matches[2]}
+			{text = "> Mr Ghasemi", callback_data="/mrghasemi:"..matches[2]}
 		},
 		{
-			{text = "> زامارین دولوپر", callback_data="/xamarindev:"..matches[2]}
+			{text = ">  ڪانال ما", callback_data="/clip_voice:"..matches[2]}
 		},
 		{
-			{text = '> گیت هاب تیم ', url = 'https://www.github.com/MaTaDoRTeam'}
+			{text = '> گیت هاب تیم ', url = 'https://www.github.com/RadikalBotTeam'}
 		},
 		{
 			{text= '> بازگشت 🔙' ,callback_data = '/option:'..matches[2]}
@@ -3112,17 +3112,14 @@ if matches[1] == '/matador' then
 end
 
 if matches[1] == '/mahdiroo' then
-local text = [[*》MahDiRoO Information《*
-_》Age :_ *18*
-_》Name :_ *MahDi Mohseni*
-_》City :_ *Malayer - Hamedan*
-*-------------------------*
-*》GitHub :《*
-》[MahDiRoO](Github.Com/MahDiRoO)
+local text = [[*》RadikalBot Information《*
+_》Age :_ *25*
+_》Name :_ *Mr Ghasemi *
+_》City :_ *Malayer - Qom*
 *-------------------------*
 *》Bridges :《*
-_》Pv : _[MahDiRoO](Telegram.Me/MahDiRoO)
-_》PvResan : _[MahDiRoO PvResan](Telegram.Me/MahDiRoO_Bot)
+_》Pv : _[ariasudo](Telegram.Me/ariasudo)
+_》PvResan : _[ariasudo PvResan](Telegram.Me/ariasudo_Bot)
 *-------------------------*
 *》Expertise :《*
 _》_*Lua*, *Cli* `and` *Api* _Bots_
@@ -3145,15 +3142,10 @@ _》_*Lua*, *Cli* `and` *Api* _Bots_
     edit_inline(msg.message_id, text, keyboard)
 end
 
-if matches[1] == '/xamarindev' then
-local text = [[*》Xamarin_Developer Information《*
-			》Age : *16*
-			》Name : *Unknown*
-			》City : *Yazd - Yazd*
-			*-------------------------*
+if matches[1] == '/ڪانال ' then
+local text = [[*》Clip_Vice Information《*
 			*》Bridges《*
-			》Pv : [@Xamarin_Developer](Telegram.Me/Xamarin_Developer)
-			》PvResan : [@Xamarin_Developer_Bot](Telegram.Me/Xamarin_Developer_Bot)
+			》Pv : [@Clip_voice](Telegram.Me/Clip_voice)
 			*-------------------------*
 			*》Expertise《*
 			》*C#* and a bit *C++*

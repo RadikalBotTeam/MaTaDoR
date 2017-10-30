@@ -1,4 +1,4 @@
---Begin Core.lua By #MaTaDoRTeaM
+--Begin Core.lua By #RadikalBotTM
 local function getindex(t,id) 
 	for i,v in pairs(t) do 
 		if v == id then 

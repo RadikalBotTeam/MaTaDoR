@@ -191,7 +191,7 @@ end
   end
 --------------------------------
 if matches[1]:lower() == 'test' then
-return tdcli.sendDocument(msg.chat_id_, 0, 0, 1, nil, './Fun/ping.gif', '@MaTaDoRTeaM', dl_cb, nil)
+return tdcli.sendDocument(msg.chat_id_, 0, 0, 1, nil, './Fun/ping.gif', '@Clip_voice', dl_cb, nil)
 end
 --------------------------------
 if matches[1] == 'bold' or matches[1] == 'Bold' or matches[1] == 'بولد' then

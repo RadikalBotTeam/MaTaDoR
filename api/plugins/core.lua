@@ -56,7 +56,7 @@ local lang = redis:get(hash)
 		}				
 	}
   elseif lang then
-	 text = '_به تنظیمات کلی خوشآمدید_'
+	 text = '_به تنظیمات کلی رادیڪال بوت خوش آمدید_'
 	keyboard = {} 
 	keyboard.inline_keyboard = {
 		{

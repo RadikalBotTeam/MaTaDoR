@@ -692,7 +692,7 @@ return tdcli.sendMessage(msg.to.id, msg.id, 0, "*کاربر "..matches[2].." ا�
     }, action_by_username, {chat_id=msg.to.id,username=matches[2],cmd="unban"})
       end
    end
- if matches[1] == "silent" and is_mod(msg) or  matches[1] == "Silent" and is_mod(msg) or  matches[1] == "خفه" and is_mod(msg) then
+ if matches[1] == "silent" and is_mod(msg) or  matches[1] == "Silent" and is_mod(msg) or  matches[1] == "سکوت" and is_mod(msg) then
 if not matches[2] and msg.reply_id then
     tdcli_function ({
       ID = "GetMessage",
@@ -730,7 +730,7 @@ data[tostring(chat)]['is_silent_users'][tostring(matches[2])] = ""
     }, action_by_username, {chat_id=msg.to.id,username=matches[2],cmd="silent"})
       end
    end
- if matches[1] == "unsilent" and is_mod(msg) or  matches[1] == "Unsilent" and is_mod(msg) or  matches[1] == "ان خفه" and is_mod(msg) then
+ if matches[1] == "unsilent" and is_mod(msg) or  matches[1] == "Unsilent" and is_mod(msg) or  matches[1] == "لغو سکوت " and is_mod(msg) then
 if not matches[2] and msg.reply_id then
     tdcli_function ({
       ID = "GetMessage",
@@ -866,16 +866,16 @@ return {
 		"^(لیست بن)$",
 		"^[!/#]([Ss]ilent)$",
 		"^([Ss]ilent)$",
-		"^(خفه)$",
+		"^(سکوت)$",
 		"^[!/#]([Ss]ilent) (.*)$",
 		"^([Ss]ilent) (.*)$",
-		"^(خفه) (.*)$",
+		"^(سکوت) (.*)$",
 		"^[!/#]([Uu]nsilent)$",
 		"^([Uu]nsilent)$",
-		"^(ان خفه)$",
+		"^(لغو سکوت )$",
 		"^[!/#]([Uu]nsilent) (.*)$",
 		"^([Uu]nsilent) (.*)$",
-		"^(ان خفه) (.*)$",
+		"^(لغو سکوت ) (.*)$",
 		"^[!/#]([Ss]ilentlist)$",
 		"^([Ss]ilentlist)$",
 		"^(لیست خفه)$",

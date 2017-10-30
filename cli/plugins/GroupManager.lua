@@ -4160,7 +4160,7 @@ if not lang then
 		end
 		end
   end
-if ((matches[1]:lower() == "option" and not Clang) or (matches[1] == 'تنظیمات کلی' and Clang)) and is_mod(msg) then
+if ((matches[1]:lower() == "option" and not Clang) or (matches[1] == 'پنل' and Clang)) and is_mod(msg) then
 local function inline_query_cb(arg, data)
       if data.results_ and data.results_[0] then
 tdcli.sendInlineQueryResultMessage(msg.to.id, 0, 0, 1, data.inline_query_id_, data.results_[0].id_, dl_cb, nil)
@@ -4874,7 +4874,7 @@ return {
 patterns ={
 "^[!/#]([Oo]ption)$",
 "^([Oo]ption)$",
-"^(تنظیمات کلی)$",
+"^(پنل)$",
 "^[!/#]([Ii]d)$",
 "^([Ii]d)$",
 "^(آیدی)$",

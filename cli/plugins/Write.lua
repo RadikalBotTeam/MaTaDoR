@@ -204,7 +204,7 @@ return {
 	patterns = {
 		"^([Ww]rite) (.*)",
 		"^([Ww]rite)$",
-		"^(نوشتن) (.*)",
+		"^() (.*)",
 		},
 	run = run
 }

@@ -279,7 +279,7 @@ local text = '*Ir Time:* _'..jdat.FAtime..'_\n*Ir Data:* _'..jdat.FAdate..'_\n--
 		tdcli.sendDocument(msg.to.id, 0, 0, 1, nil, file, '', dl_cb, nil)
 	end
 --------------------------------
-	if matches[1]:lower() == "photo" or  matches[1]:lower() == "Photo" or matches[1]:lower() == "عکس" then 
+	if matches[1]:lower() == "photo" or  matches[1]:lower() == "Photo" or matches[1]:lower() == "" then 
 		local eq = URL.escape(matches[2])
 		local w = "500"
 		local h = "500"
@@ -361,7 +361,7 @@ return {
 		"^(ترجمه) ([^%s]+) (.*)$",
 		"^(کوتاه) (.*)$",
 		"^(عکس) (.+)$",
-		"^(استیکر) (.+)$",
+		"^() (.+)$",
 		"^(من)$",
 		"^(test)$",
 		"^(پروفایل) (%d+)$",

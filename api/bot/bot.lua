@@ -167,20 +167,18 @@ function create_config( )
     disabled_channels = {},
     moderation = {data = ''..MaTaDoRTeaM..'/data/moderation.json'},
     info_text = [[
-*》MaTaDoR Helper Bot V1*
+*》RadikalBot Helper *
 	
-》[MaTaDoR Helper](https://github.com/MaTaDoRTeam/MaTaDoR)
+》[RadikalBot Helper](https://github.com/RadikalBotTeam/MaTaDoR)
 
 *》Admins :*
-*》Founder & Developer :* [MahDiRoO](Telegram.Me/mahdiroo)
-_》Developer :_ [JaVaD](Telegram.Me/javadsudo)
-_》Developer & Sponser :_ [MAKAN](Telegram.Me/shaniloop)
-
-*》Special thanks to :*
-》[Xamarin](Telegram.Me/xamarin_developer)
+*》Founder & Developer :* [Mr Ghasemi](Telegram.Me/ariasudo)
 
 *》Our channel :*
-》[MaTaDoRTeaM](Telegram.Me/matadorTeam)
+》[RadikalBotTm](Telegram.Me/RadikalBotTm)
+		
+*》Our channe2 :*
+》[Clip_Voice](Telegram.Me/clip_voice)	
 ]],
   }
   serialize_to_file(config, './data/config.lua')

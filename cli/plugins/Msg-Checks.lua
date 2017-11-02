@@ -395,7 +395,7 @@ and lock_tabchi == "yes" then
    end
  end
 	
-local fosh_caption = msg.media.caption:match("کص")or msg.media.caption:match("کون")or msg.media.caption:match("ممه")or msg.media.caption:match("کیری")or msg.media.caption:match("حرومی")or msg.media.caption:match("ننه") or msg.media.caption:match("کصده")or msg.media.caption:match("کث")or msg.media.caption:match("کسکش")or msg.media.caption:match("کصکش")or msg.media.caption:match("لاشی")or msg.media.caption:match("ناموس")or msg.media.caption:match("جنده")or msg.media.caption:match("یتیم")or msg.media.caption:match("خارکسده")or msg.media.caption:match("مادرجنده")or msg.media.caption:match("حرومزاده")or msg.media.caption:match("خواهرجنده")or msg.media.caption:match("خواهرتو")or msg.media.caption:match("مادرتو")or msg.media.caption:match("کونی")or msg.media.caption:match("اوبی")or msg.media.caption:match("لاشی")or msg.media.caption:match("kir")or msg.media.caption:match("kos")or msg.media.caption:match("lashi")
+local fosh_caption = msg.media.caption:match("کص")or msg.media.caption:match("کون")or msg.media.caption:match("ممه")or msg.media.caption:match("کیری")or msg.media.caption:match("حرومی")or msg.media.caption:match("ننه") or msg.media.caption:match("کصده")or msg.media.caption:match("کث")or msg.media.caption:match("کسکش")or msg.media.caption:match("کصکش")or msg.media.caption:match("لاشی")or msg.media.caption:match("ناموس")or msg.media.caption:match("جنده")or msg.media.caption:match("یتیم")or msg.media.caption:match("خارکسده")or msg.media.caption:match("مادرجنده")or msg.media.caption:match("حرومزاده")or msg.media.caption:match("خواهرجنده")or msg.media.caption:match("خواهرتو")or msg.media.caption:match("مادرتو")or msg.media.caption:match("کونی")or msg.media.caption:match("اوبی")or msg.media.caption:match("کیر")or msg.media.caption:match("kir")or msg.media.caption:match("kos")or msg.media.caption:match("lashi")
 if fosh_caption and fosh == "yes" then
  if is_channel then
  del_msg(chat, tonumber(msg.id))
@@ -533,7 +533,7 @@ and lock_tabchi == "yes" then
   end
 end
 	
-local fosh_msg = msg.text:match("کص")or msg.text:match("کون")or msg.text:match("ممه")or msg.text:match("کیری")or msg.text:match("حرومی")or msg.text:match("ننه") or msg.text:match("کصده")or msg.text:match("کث")or msg.text:match("کسکش")or msg.text:match("کصکش")or msg.text:match("لاشی")or msg.text:match("ناموس")or msg.text:match("جنده")or msg.text:match("یتیم")or msg.text:match("خارکسده")or msg.text:match("مادرجنده")or msg.text:match("حرومزاده")or msg.text:match("خواهرجنده")or msg.text:match("خواهرتو")or msg.text:match("مادرتو")or msg.text:match("کونی")or msg.text:match("اوبی")or msg.text:match("لاشی")or msg.text:match("kir")or msg.text:match("kos")or msg.text:match("lashi")
+local fosh_msg = msg.text:match("کص")or msg.text:match("کون")or msg.text:match("ممه")or msg.text:match("کیری")or msg.text:match("حرومی")or msg.text:match("ننه") or msg.text:match("کصده")or msg.text:match("کث")or msg.text:match("کسکش")or msg.text:match("کصکش")or msg.text:match("لاشی")or msg.text:match("ناموس")or msg.text:match("جنده")or msg.text:match("یتیم")or msg.text:match("خارکسده")or msg.text:match("مادرجنده")or msg.text:match("حرومزاده")or msg.text:match("خواهرجنده")or msg.text:match("خواهرتو")or msg.text:match("مادرتو")or msg.text:match("کونی")or msg.text:match("اوبی")or msg.text:match("کیر")or msg.text:match("kir")or msg.text:match("kos")or msg.text:match("lashi")
 if fosh_msg and fosh == "yes" then
  if is_channel then
  del_msg(chat, tonumber(msg.id))

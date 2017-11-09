@@ -4180,9 +4180,7 @@ if not lang then
 text = [[🔖*нєℓρ яα∂ι¢αℓ Ɓσт*
 ⚡️*тo ѕee тнe coммαɴdѕ oғ yoυr deѕιred ιтeм ѕυвмιт*
 🌐 _ҽɳɠʅιʂԋ cσɱɱαɳԃʂ :_
-👆 `To Get Help Sudo`
-*👉 SudoHelp*
-➖➖➖
+
 👆 `To Get Help Mod`
 *👉 Modhelp*
 ➖➖➖
@@ -4195,8 +4193,8 @@ text = [[🔖*нєℓρ яα∂ι¢αℓ Ɓσт*
 👆 `To Get Help MuteTime`
 *👉 Mutetimehelp*
 ➖➖➖
-👆 `To Get Help Fun`
-*👉 Funhelp*
+👆 `To Get Help del all`
+*👉 help del*
 ➖➖➖
 ⌨️ ℓαηgυαgє вσт єηgℓιѕн !
 _To Change The LanGuage_ 
@@ -4209,9 +4207,7 @@ elseif lang then
 text = [[🔖*нєℓρ яα∂ι¢αℓ Ɓσт*
 ⚡️*برای دیدن دستورات مورد نظر خود ، مورد دلخواه را ارسال کنید*
 💠_دستورات فارسی :_
-🎗*👉  راهنمای سودو۰*
-⏺#دستورات‌صاحب‌ربات 🙄👆🏻
-➖➖➖
+
 🎗*👉  راهنمای قفلی*
 🔸#دستورات‌قفلی 🙄👆🏻
 ➖➖➖
@@ -4224,8 +4220,8 @@ text = [[🔖*нєℓρ яα∂ι¢αℓ Ɓσт*
 🎗*👉  راهنمای بیصدازمانی*
 ⏺#دستورات‌بیصدازمانی 🙄👆🏻
 ➖➖➖
-🎗*👉  راهنمای فان*
-🔸#دستورات‌سرگرم‌کننده 🙄👆🏻
+🎗*👉  راهنمای پاکسازی*
+🔸#دستورات‌پاکسازی‌گروه 🙄👆🏻
 ➖➖➖
 ⌨️ زبان ربات فارسی !
 _برای تغییر زبان_
@@ -4327,9 +4323,9 @@ text = [[
 💠*EngliSh CoMmAnDs :*
 #Lock commands 
 🔒*Lock*  
-`[link , username , hashtag , edit , arabic , webpage , bots , spam , flood , markdown , mention , emoji , ads , fosh,cmds,join]`
+`[link , username , hashtag , edit , arabic , webpage , bots , spam , flood , markdown , mention , emoji , ads , fosh , cmds , vidoe-note , join]`
 🔓*Unlock* 
- `[link , username , hashtag , edit , arabic , webpage , bots , spam , flood , markdown , mention , emoji , ads , fosh,cmds,join]`
+ `[link , username , hashtag , edit , arabic , webpage , bots , spam , flood , markdown , mention , emoji , ads , fosh , cmds , vidoe-note , join]`
  
  *⌨️ LanGuage BoT EngliSh !*
 _To Change The LanGuage_ `[Setlang]` `[en , fa]`
@@ -4342,9 +4338,9 @@ text = [[
 💠_دستورات فارسی :_
 #دستورات قفلی 
 🔒*قفل*
-`{لینک ، یوزرنیم ، هشتگ ، فراخوانی ، اسپم ، حساسیت ، ویرایش ، ربات ، مارکدون ، وب ، سنجاق ، انگلیسی ، عربی ، ویو ، امجو ، تبلیغات ، فحش،دستورات،ورود}`
+`{لینک ، یوزرنیم ، فیلم سلفی ، هشتگ ، فراخوانی ، اسپم ، حساسیت ، ویرایش ، ربات ، مارکدون ، وب ، سنجاق ، انگلیسی ، عربی ، ویو ، امجو ، تبلیغات ، فحش،دستورات،ورود}`
 🔓*بازکردن* 
-`{لینک ، یوزرنیم ، هشتگ ، فراخوانی ، اسپم ، حساسیت ، ویرایش ، ربات ، مارکدون ، وب ، سنجاق ، انگلیسی ، عربی ، ویو ، امجو ، تبلیغات ، فحش،دستورات،ورود}`
+`{لینک ، یوزرنیم ، فیلم سلفی ، هشتگ ، فراخوانی ، اسپم ، حساسیت ، ویرایش ، ربات ، مارکدون ، وب ، سنجاق ، انگلیسی ، عربی ، ویو ، امجو ، تبلیغات ، فحش،دستورات،ورود}`
 *⌨️ زبان ربات فارسی !*
 _برای تغییر زبان_ `[تنظیم زبان]` `[فارسی , انگلسیی]`
 ➖➖➖

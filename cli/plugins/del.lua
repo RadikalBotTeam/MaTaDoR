@@ -251,7 +251,7 @@ You may use *!/#* in the beginning of English commands optionally
 ⚠️ This is probable that if you deleted a chunk of messages in the group commands don't work as desired. In those cases, reply commands to non-deleted message and this will fix the problem in most cases.
 This plugin works fine in supergroups. In normal groups some of functions don't operate.
 
-*Dev:* @ImAWitchBurnMe]]
+*Dev:* @RADICALBOTTEAM]]
 		else
 			msgBody = [[‏🇮🇷 راهنمای پاکسازی:
 

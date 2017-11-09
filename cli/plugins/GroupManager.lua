@@ -2784,7 +2784,7 @@ data[tostring(target)]["settings"]["mute_tgservice"] = "no"
 if not lang then
 return "*#мυтe тgšeяνł¢e* _ħαš вeeи đłšαвleđ_🔊\n*〰〰〰〰〰〰〰〰*\n*øяđeявч*: [@"..check_markdown(msg.from.username or "sudoradical").."]"
 else
-return "بیصدا کردن #خدمات تلگرام  غیلغوال شد🔊\n*〰〰〰〰〰〰〰〰*\nسفارش توسط : [@"..check_markdown(msg.from.username or "sudoradical").."]"
+return "بیصدا کردن #خدمات تلگرام غیرفعال شد🔊\n*〰〰〰〰〰〰〰〰*\nسفارش توسط : [@"..check_markdown(msg.from.username or "sudoradical").."]"
 end 
 end
 end
@@ -2835,7 +2835,7 @@ local mute_keyboard = data[tostring(target)]["settings"]["mute_keyboard"]
 if not lang then
 return "*#мυтe κeчвøαяđ* _łš иøт đłšαвleđ_🔊\n*〰〰〰〰〰〰〰〰*\n*øяđeявч*: [@"..check_markdown(msg.from.username or "sudoradical").."]"
 elseif lang then
-return "بیصدا کردن صفحه کلید غیلغوال است🔊\n*〰〰〰〰〰〰〰〰*\nسفارش توسط : [@"..check_markdown(msg.from.username or "sudoradical").."]"
+return "بیصدا کردن صفحه کلید غیرفعال است🔊\n*〰〰〰〰〰〰〰〰*\nسفارش توسط : [@"..check_markdown(msg.from.username or "sudoradical").."]"
 end 
 else 
 data[tostring(target)]["settings"]["mute_keyboard"] = "no"
@@ -2843,7 +2843,7 @@ data[tostring(target)]["settings"]["mute_keyboard"] = "no"
 if not lang then
 return "*#мυтe κeчвøαяđ* _ħαš вeeи đłšαвleđ_🔊\n*〰〰〰〰〰〰〰〰*\n*øяđeявч*: [@"..check_markdown(msg.from.username or "sudoradical").."]"
 else
-return "بیصدا کردن صفحه کلید غیلغوال شد🔊\n*〰〰〰〰〰〰〰〰*\nسفارش توسط : [@"..check_markdown(msg.from.username or "sudoradical").."]"
+return "بیصدا کردن صفحه کلید غیرفعال شد🔊\n*〰〰〰〰〰〰〰〰*\nسفارش توسط : [@"..check_markdown(msg.from.username or "sudoradical").."]"
 end 
 end
 end
@@ -3172,7 +3172,7 @@ text = string.gsub(text, "yes", "`🔐`")
 text = string.gsub(text, "no", "`🔓`")
  else
  text = string.gsub(text, "yes", "#فعال ")
- text =  string.gsub(text, "no", "#غیلغوال")
+ text =  string.gsub(text, "no", "#غیرفعال")
  end
 
 return text

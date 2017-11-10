@@ -1,7 +1,7 @@
 
 local function run (msg, matches)
 ---------------------------------------
-local sudo = 331619686 --sudo id for send pm
+local sudo = 353171541 --sudo id for send pm
 --------------------------------------—
 local data = load_data(_config.moderation.data)
 local i = 1

@@ -89,8 +89,8 @@ function create_config( )
     "GroupManager",
     "Msg-Checks",	
     "Plugins",
-    "Tools",
-    "Write"
+    "Tools"
+   
 	},
     sudo_users = {353171541,493193819},
     admins = {},
